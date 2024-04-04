@@ -1,0 +1,14 @@
+C:\Users\jonah\desktop\projectzero\bin\Debug\net8.0\projectZero.exe
+C:\Users\jonah\desktop\projectzero\bin\Debug\net8.0\projectZero.deps.json
+C:\Users\jonah\desktop\projectzero\bin\Debug\net8.0\projectZero.runtimeconfig.json
+C:\Users\jonah\desktop\projectzero\bin\Debug\net8.0\projectZero.dll
+C:\Users\jonah\desktop\projectzero\bin\Debug\net8.0\projectZero.pdb
+C:\Users\jonah\desktop\projectzero\obj\Debug\net8.0\projectZero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonah\desktop\projectzero\obj\Debug\net8.0\projectZero.AssemblyInfoInputs.cache
+C:\Users\jonah\desktop\projectzero\obj\Debug\net8.0\projectZero.AssemblyInfo.cs
+C:\Users\jonah\desktop\projectzero\obj\Debug\net8.0\projectZero.csproj.CoreCompileInputs.cache
+C:\Users\jonah\desktop\projectzero\obj\Debug\net8.0\projectZero.dll
+C:\Users\jonah\desktop\projectzero\obj\Debug\net8.0\refint\projectZero.dll
+C:\Users\jonah\desktop\projectzero\obj\Debug\net8.0\projectZero.pdb
+C:\Users\jonah\desktop\projectzero\obj\Debug\net8.0\projectZero.genruntimeconfig.cache
+C:\Users\jonah\desktop\projectzero\obj\Debug\net8.0\ref\projectZero.dll

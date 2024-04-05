@@ -4,7 +4,14 @@ class Menu
 {
     public static void PrintMenu(){
         // write menu items
-        Console.WriteLine(" your code is working");
+        Console.WriteLine(" Welcome To National Parks Bucket List App");
+        Console.WriteLine(" Choose an option :" + "\n"+ 
+                            "   1- Display National Parks" + "\n" +
+                            "   2- Count How Many Parks ive been to" + "\n" +
+                            "   3- My Bucket List Parks" + "\n" +
+                            "   5- Add/Remove notes to MyParks");
+
+
     }
     public static int UserChoice(){
        try{

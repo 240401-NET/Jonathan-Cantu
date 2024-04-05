@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonah\\desktop\\projectzero\\projectZero.csproj": {}
+    "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectzero\\projectZero.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonah\\desktop\\projectzero\\projectZero.csproj": {
+    "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectzero\\projectZero.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonah\\desktop\\projectzero\\projectZero.csproj",
+        "projectUniqueName": "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectzero\\projectZero.csproj",
         "projectName": "projectZero",
-        "projectPath": "C:\\Users\\jonah\\desktop\\projectzero\\projectZero.csproj",
+        "projectPath": "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectzero\\projectZero.csproj",
         "packagesPath": "C:\\Users\\jonah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonah\\desktop\\projectzero\\obj\\",
+        "outputPath": "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectzero\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonah\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -8,17 +8,22 @@ namespace projectZero;
 class Data{
 
     //Read the file
-    public static void LoadParks(ref List<NationalPark> nationalParks){
+    public static void LoadParks(ref List<NationalPark> nationalParksList){
 
         try{
             string filePath = "NationalParks.json";
             string jsonParks = File.ReadAllText(filePath);
+            //debuging
+            //Console.WriteLine( jsonParks);
+           
 
             // characters is assigned the deserialized list of characters from the jsonCharacters string. ~ Ricardo PenaMcKnight
-            nationalParks = JsonSerializer.Deserialize<List<NationalPark>>(jsonParks);
+             nationalParksList = JsonSerializer.Deserialize<List<NationalPark>>(jsonParks);
             
-            foreach(NationalPark np in nationalParks){
+            foreach(NationalPark np in nationalParksList){
                 np.ToString();
+                //debugging
+                //Console.WriteLine(np);
             }
 
         }catch(Exception e){

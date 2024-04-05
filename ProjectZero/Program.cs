@@ -12,24 +12,20 @@ class Program
         Data.LoadParks(ref nationalParksList);
 
         //Add  hardcoded national Parks, append them to list
-        NationalPark GrandCanyon = new("GrandCanyon", "Arizona", "earths butt crack");
-        NationalPark JoshuaTree = new("JoshuaTree", "California", "Desert with huge rocks");
-        NationalPark SeqoiaNationalPark = new("Seqoia National Park", "California", "big ass trees");
+        NationalPark GrandCanyon = new("GrandCanyon", "Arizona", "earths butt crack", true, true);
+        NationalPark JoshuaTree = new("JoshuaTree", "California", "Desert with huge rocks", false, false);
+        
 
         //Appending characters to the list 
         nationalParksList.Add(GrandCanyon);
         nationalParksList.Add(JoshuaTree);
-        nationalParksList.Add(SeqoiaNationalPark);
+        
     
 
     // Code for Parks ive been too
     //List<NationalPark> parksIveBeenToo = new();
         // load parksIveBeenToo here
         //Data.LoadPIBT(ref parksIveBeenToo);
-    
-    
-    
-    
     
     
     
@@ -63,15 +59,9 @@ class Program
             // add or remove bucket list items( system basicaly will recreate list 
             //and overwrite existing json file)
 
-
-
-            
             break;
             // add/remove personal notes to a park
             case 5: Console.WriteLine("Invalid choice, please enter again!");
-            
-
-
             
             break;
             case 9:Console.WriteLine("Goodbye!");

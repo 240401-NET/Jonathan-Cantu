@@ -12,13 +12,13 @@ class Program
         Data.LoadParks(ref nationalParksList);
 
         //Add  hardcoded national Parks, append them to list
-        NationalPark GrandCanyon = new("GrandCanyon", "Arizona", "earths butt crack", true, true);
-        NationalPark JoshuaTree = new("JoshuaTree", "California", "Desert with huge rocks", false, false);
+        //NationalPark GrandCanyon = new("GrandCanyon", "Arizona", "earths butt crack", true, true);
+        //1NationalPark JoshuaTree = new("JoshuaTree", "California", "Desert with huge rocks", false, false);
         
 
         //Appending characters to the list 
-        nationalParksList.Add(GrandCanyon);
-        nationalParksList.Add(JoshuaTree);
+        //nationalParksList.Add(GrandCanyon);
+        //nationalParksList.Add(JoshuaTree);
         
     
 
@@ -30,7 +30,7 @@ class Program
     
     
     int userInput =0;
-
+    string input="";
     while (userInput !=9){
         // show menu
         Menu.PrintMenu();
@@ -42,27 +42,88 @@ class Program
 
         switch(userInput){
             //Show All National Parks
-            case 1: Console.WriteLine("A bunch of National Parks");
-            Logic.DisplayParks(nationalParksList);
-                
+            case 1: Console.WriteLine("***National Parks List***");
+            Logic.DisplayParks(nationalParksList);    
             break;
+            
             //Tell me how many parks ive been too
-            case 2: Console.WriteLine("Invalid choice, please enter again!");
             // create method to count parks ive been too
             // Display parks ive been too
-
-
+            case 2: Console.WriteLine("Parks you been too!");
+            Logic.RetrievePIBT(nationalParksList);
             break;
-            // add/remove parks to bucket List -- shows bucket list parks
-            case 3:Console.WriteLine("Invalid choice, please enter again!");
+
             // create secondary menu, Displays options and displays current bucket list parks
             // add or remove bucket list items( system basicaly will recreate list 
-            //and overwrite existing json file)
+            //and overwrite existing json file
+            // add/remove parks to bucket List -- shows bucket list parks
+            case 3:Console.WriteLine("Invalid choice, please enter again!");
+            Menu.SecondMenu();
+            userInput = Menu.UserChoice();
+                switch(userInput){
+                    case 1: Console.WriteLine("option1");
+                    break;
+                    case 2: Console.WriteLine("option 3");
+                    break;
+                    case 3: Console.WriteLine("option4");
+                    break;
+                    case 4: //exit
+                    break;
+                }
 
             break;
+
             // add/remove personal notes to a park
             case 5: Console.WriteLine("Invalid choice, please enter again!");
             
+            break;
+            case 6:
+                    Console.WriteLine("Add National Park");
+                    Console.WriteLine("What is the name of your new park? ");
+                    string newName = Console.ReadLine();
+                    Console.WriteLine(" What State is your park in?");
+                    string newsta = Console.ReadLine();
+                    Console.WriteLine(" what is a summary of your park?");
+                    string newsum = Console.ReadLine();
+                    NationalPark newpark = new(newName,newsta,newsum,false,false);
+                    nationalParksList.Add(newpark);
+            break;
+            case 7:
+                    Console.WriteLine("Remove National Park From DataBase");
+                    bool parkcheck = false;
+                    while (parkcheck == false){
+                    System.Console.WriteLine( "Which park would you like to remove?");
+                    input = Console.ReadLine();
+                    parkcheck = Logic.ParkCheck(input,nationalParksList);
+                    Logic.RemovePark(input,nationalParksList);
+                    }
+
+                    
+                    
+
+
+            break;
+            case 8: 
+                    Console.WriteLine("National Park Editor");
+                    parkcheck = false;
+                    
+                    while (parkcheck == false){
+                    Console.WriteLine("Choose your park to edit");
+                    input = Console.ReadLine();
+                    parkcheck = Logic.ParkCheck(input,nationalParksList);
+                    }
+                    
+                    string nationalpark = input;
+                    Console.WriteLine(" Type your new Summary here"
+                                        +"\n"+ "If you dont want to change leave blank ");
+                    input = Console.ReadLine();
+                    string newSum = input;
+                    Console.WriteLine(" Type your new State here"
+                                        +"\n"+ "If you dont want to change leave blank ");
+                    input = Console.ReadLine();
+                    string newSta = input;
+                    Logic.NationalParkEditor(nationalParksList,nationalpark,newSum,newSta);
+
             break;
             case 9:Console.WriteLine("Goodbye!");
             break;

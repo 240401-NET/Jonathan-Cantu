@@ -58,19 +58,23 @@ class Program
             //and overwrite existing json file
             // add/remove parks to bucket List -- shows bucket list parks
             case 3:Console.WriteLine("Invalid choice, please enter again!");
+            while (userInput !=4){
             Menu.SecondMenu();
             userInput = Menu.UserChoice();
                 switch(userInput){
+                    //Displays Bucket List Parks
                     case 1: Console.WriteLine("option1");
                     break;
-                    case 2: Console.WriteLine("option 3");
+                    //adds Parks to bucket List
+                    case 2: Console.WriteLine("option 2");
                     break;
-                    case 3: Console.WriteLine("option4");
+                    //removes parks from bucket List
+                    case 3: Console.WriteLine("option3");
                     break;
                     case 4: //exit
                     break;
                 }
-
+            }
             break;
 
             // add/remove personal notes to a park
@@ -96,7 +100,7 @@ class Program
                     input = Console.ReadLine();
                     parkcheck = Logic.ParkCheck(input,nationalParksList);
                     Logic.RemovePark(input,nationalParksList);
-                    }
+                    } 
 
                     
                     

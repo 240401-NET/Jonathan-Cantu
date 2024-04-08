@@ -40,10 +40,10 @@ public static bool ParkCheck(string input, List<NationalPark> nationalParksList)
     }
     return false;
 }
-p
+
 //InvalidOperationException, during the foreach loop, I am elimnating one of the list opjects while 
-// runnin gthrough it which causes an exception.
-ublic static void RemovePark(string input, List<NationalPark> nationalParksList){
+// runnin through it which causes an exception.
+public static void RemovePark(string input, List<NationalPark> nationalParksList){
     foreach(NationalPark np in nationalParksList){
         if( np.Name == input){
             Console.WriteLine("You have chosen "+ input + "\n");

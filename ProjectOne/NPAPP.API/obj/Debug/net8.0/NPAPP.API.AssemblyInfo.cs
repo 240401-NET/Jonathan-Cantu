@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("6775efe0-bde4-4c93-b7e2-7297fc197f5f")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NPAPP.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5275b534006e1f75feb8dfcdd1aa60bc9151f883")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19e88e1ded253e1fe3ad4e5d4c7315c18c4dd912")]
 [assembly: System.Reflection.AssemblyProductAttribute("NPAPP.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NPAPP.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

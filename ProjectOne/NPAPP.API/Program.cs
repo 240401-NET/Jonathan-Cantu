@@ -1,10 +1,15 @@
-
+using Microsoft.EntityFrameworkCore;
+using NPAPP.API;
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.Services.AddDbContext<ProjectOne2024Context>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("dbconnectionstr")));
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+Console.WriteLine(builder.Configuration["dbconnectionstr"]);
 
 var app = builder.Build();
 

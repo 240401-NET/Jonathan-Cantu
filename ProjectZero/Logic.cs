@@ -1,6 +1,6 @@
 namespace projectZero;
 
-class Logic{
+public class Logic{
 
 
 

@@ -27,3 +27,9 @@ C:\Users\jonah\Desktop\Jonathan-Cantu\ProjectZero\obj\Debug\net8.0\refint\projec
 C:\Users\jonah\Desktop\Jonathan-Cantu\ProjectZero\obj\Debug\net8.0\projectZero.pdb
 C:\Users\jonah\Desktop\Jonathan-Cantu\ProjectZero\obj\Debug\net8.0\projectZero.genruntimeconfig.cache
 C:\Users\jonah\Desktop\Jonathan-Cantu\ProjectZero\obj\Debug\net8.0\ref\projectZero.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\projectzero\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\projectzero\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\projectzero\bin\Debug\net8.0\xunit.core.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\projectzero\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\projectzero\obj\Debug\net8.0\projectZero.csproj.AssemblyReference.cache
+C:\Users\jonah\Desktop\Jonathan-Cantu\projectzero\obj\Debug\net8.0\projectZ.8F3B87E5.Up2Date

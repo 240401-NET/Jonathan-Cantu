@@ -68,9 +68,6 @@ class Program
                     //adds Parks to bucket List
                     case 2: Console.WriteLine("option 2");
                     break;
-                    //removes parks from bucket List
-                    case 3: Console.WriteLine("option3");
-                    break;
                     case 4: //exit
                     break;
                 }
@@ -89,6 +86,8 @@ class Program
                     string newsta = Console.ReadLine();
                     Console.WriteLine(" what is a summary of your park?");
                     string newsum = Console.ReadLine();
+                    
+                    
                     NationalPark newpark = new(newName,newsta,newsum,false,false);
                     nationalParksList.Add(newpark);
             break;

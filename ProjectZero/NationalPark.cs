@@ -2,7 +2,7 @@
 
 namespace projectZero;
 
-class NationalPark{
+public class NationalPark{
     public string? Name{get;set;}
     public string? InState{get;set;}
     public string? Summary{get;set;}

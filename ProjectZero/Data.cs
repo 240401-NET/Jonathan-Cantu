@@ -5,7 +5,7 @@ using System.Text.Json;
 
 namespace projectZero;
 
-class Data{
+public class Data{
 
     //Read the file
     public static void LoadParks(ref List<NationalPark> nationalParksList){

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "z5PlKTwND9yaRxz1EUNXGAbdbOzfHn9boctQxzmJkm4=",
+  "Source": "NPAPP.API",
+  "BasePath": "_content/NPAPP.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

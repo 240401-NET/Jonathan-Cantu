@@ -1,6 +1,6 @@
 namespace projectZero;
 
-class Menu
+public class Menu
 {
     public static void PrintMenu(){
         // write menu items
@@ -8,8 +8,8 @@ class Menu
         Console.WriteLine(" Choose an option :" + "\n"+ 
                             "   1- Display National Parks" + "\n" +
                             "   2- Count How Many Parks ive been to" + "\n" +
-                            "   3- My Bucket List Parks" + "\n" +
-                            "   5- Add/Remove notes to MyParks" + "\n" +
+                            "   " + "\n" +
+                            "   6- Add National Park \n" +
                             "   8- National Park Editor" + "\n" +
                             "   9- Exit & Persist Data" + "\n");
 
@@ -30,7 +30,7 @@ class Menu
         Console.WriteLine(" Choose an option: " + "\n"+
                             "   1- View Available Parks" + "\n"+
                             "   2- Add parks to bucket list" + "\n" +
-                            "   3- Remove parks from bucket list" + "\n" +
+                            "" + "\n" +
                             "   4- exit Bucket List Editor" + "\n");
     }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPapp.API\\NPAPP.API.csproj": {}
+    "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPAPP.API\\NPAPP.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPapp.API\\NPAPP.API.csproj": {
+    "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPAPP.API\\NPAPP.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPapp.API\\NPAPP.API.csproj",
+        "projectUniqueName": "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPAPP.API\\NPAPP.API.csproj",
         "projectName": "NPAPP.API",
-        "projectPath": "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPapp.API\\NPAPP.API.csproj",
+        "projectPath": "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPAPP.API\\NPAPP.API.csproj",
         "packagesPath": "C:\\Users\\jonah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPapp.API\\obj\\",
+        "outputPath": "C:\\Users\\jonah\\Desktop\\Jonathan-Cantu\\projectone\\NPAPP.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonah\\AppData\\Roaming\\NuGet\\NuGet.Config"

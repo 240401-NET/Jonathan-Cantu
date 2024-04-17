@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NPAPP.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+593fa241eab62ebfee9acf48e89954689ad3ed77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cee10c78157554d5c8df1f6adee9745799ec256")]
 [assembly: System.Reflection.AssemblyProductAttribute("NPAPP.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NPAPP.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

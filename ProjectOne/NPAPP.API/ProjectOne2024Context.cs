@@ -41,10 +41,7 @@ public partial class ProjectOne2024Context : DbContext
 
     public virtual DbSet<UserTable> UserTables { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=tcp:projectone-jon.database.windows.net,1433;Initial Catalog=ProjectOne2024;Persist Security Info=False;User ID=Jonathan-Admin;Password=Adm!nPa$$w0rd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-
+   
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Album>(entity =>

@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c50df274-5473-4ce2-b1eb-d270b1f94a7c")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nparks.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0901ea9fea7a72d0fc0df0d818ccc5c50098d5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af0369b81af889a9de54dc45e82ef8d3c8ba3723")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nparks.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nparks.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

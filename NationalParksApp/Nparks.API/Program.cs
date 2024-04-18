@@ -11,8 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddDbContext<NparksDbContext>
-(option => option.UseSqlServer(builder.Configuration.GetConnectionString("dbconnectionstr")));
+builder.Services.AddDbContext<NparksDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("dbconnectionstr")));
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -48,6 +47,8 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+app.MapGet()
 
 app.Run();
 

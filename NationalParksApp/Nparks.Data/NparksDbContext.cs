@@ -7,8 +7,18 @@ public class NparksDbContext : DbContext {
     public NparksDbContext() : base() {}
     public NparksDbContext(DbContextOptions options) : base(options) {}
 
-    public DbSet<NationalPark> NationalPark { get; set; }
-    public DbSet<BucketListPark> BucketListPark { get; set; }
+    public DbSet<nationalParks> nationalParks { get; set; }
+    public DbSet<BucketListParks> BucketListParks { get; set; }
     public DbSet<UserTable> UserTable { get; set;}
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+ {
+     modelBuilder.Entity<BucketListParks>().HasNoKey();
+    modelBuilder.Entity<UserTable>().HasNoKey();
+     modelBuilder.Entity<nationalParks>().HasNoKey();
+
+ }
+
+
 
 }

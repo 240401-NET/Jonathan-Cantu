@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nparks.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af0369b81af889a9de54dc45e82ef8d3c8ba3723")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21f96caa9d4fe3b36adc97a28707b163f40356b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nparks.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nparks.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

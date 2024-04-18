@@ -1,0 +1,12 @@
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\bin\Debug\net8.0\Grocery.Models.deps.json
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\bin\Debug\net8.0\Grocery.Models.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\bin\Debug\net8.0\Grocery.Models.pdb
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\obj\Debug\net8.0\Grocery.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\obj\Debug\net8.0\Grocery.Models.AssemblyInfoInputs.cache
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\obj\Debug\net8.0\Grocery.Models.AssemblyInfo.cs
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\obj\Debug\net8.0\Grocery.Models.csproj.CoreCompileInputs.cache
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\obj\Debug\net8.0\Grocery.Models.sourcelink.json
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\obj\Debug\net8.0\Grocery.Models.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\obj\Debug\net8.0\refint\Grocery.Models.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\obj\Debug\net8.0\Grocery.Models.pdb
+C:\Users\jonah\Desktop\Jonathan-Cantu\GroceryApp\Grocery.Models\obj\Debug\net8.0\ref\Grocery.Models.dll

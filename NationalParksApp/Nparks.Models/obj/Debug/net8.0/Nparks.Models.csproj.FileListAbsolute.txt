@@ -1,0 +1,12 @@
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\bin\Debug\net8.0\Nparks.Models.deps.json
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\bin\Debug\net8.0\Nparks.Models.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\bin\Debug\net8.0\Nparks.Models.pdb
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\obj\Debug\net8.0\Nparks.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\obj\Debug\net8.0\Nparks.Models.AssemblyInfoInputs.cache
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\obj\Debug\net8.0\Nparks.Models.AssemblyInfo.cs
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\obj\Debug\net8.0\Nparks.Models.csproj.CoreCompileInputs.cache
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\obj\Debug\net8.0\Nparks.Models.sourcelink.json
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\obj\Debug\net8.0\Nparks.Models.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\obj\Debug\net8.0\refint\Nparks.Models.dll
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\obj\Debug\net8.0\Nparks.Models.pdb
+C:\Users\jonah\Desktop\Jonathan-Cantu\NationalParksApp\Nparks.Models\obj\Debug\net8.0\ref\Nparks.Models.dll

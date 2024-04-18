@@ -42,6 +42,12 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+app.MapGet("/NationalParks", (IRepository repo) => {
+    return repo.GetAllPets();
+})
+.WithName("Get All Parks")
+.WithOpenApi();
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Grocery.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb7d2a482884ee8666a2e90d60ac28b57e390695")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f7ffd542fffeec4cd80f7cce6d580f812b33835")]
 [assembly: System.Reflection.AssemblyProductAttribute("Grocery.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Grocery.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

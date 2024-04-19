@@ -12,6 +12,7 @@
           "Grocery.Models": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.3",
           "Microsoft.EntityFrameworkCore.Design": "8.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "Swashbuckle.AspNetCore": "6.4.0"
         },

@@ -1,16 +1,18 @@
 using Microsoft.EntityFrameworkCore;
 using Grocery.Data;
-using Grocery.Models;
+using Azure.Core.Pipeline;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Console.WriteLine(builder.Configuration["dbconnectionstr"]);
-builder.Services.AddDbContext<GroceryDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("dbconnectionstr")));
+Console.WriteLine(builder.Configuration["dbconn"]);
+builder.Services.AddDbContext<GroceryDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("dbconn")));
 
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddScoped<GroceryRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -44,6 +46,17 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+ app.MapGet("/Groceries",(GroceryRepository repo) =>(
+     return repo.GetAllGroceries;));
+     .WithName("Get All Groceries")
+     .WithOpenApi();
+     
+app.MapPost("/AddGroceryItem", (GroceryRepository repo, Item itemToCreate) ->)
+return repo.CreateNewItem(itemToCreate);
+.WithName("Add A Item To Groceries")
+.WithOpenApi();
+
 
 app.Run();
 

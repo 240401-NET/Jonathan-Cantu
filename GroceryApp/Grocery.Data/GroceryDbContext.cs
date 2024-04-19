@@ -1,9 +1,11 @@
 using Microsoft.EntityFrameworkCore;
-namespace Grocery.Models;
+using Grocery.Models;
+
+namespace Grocery.Data;
 
 public class GroceryDbContext : DbContext{
     public GroceryDbContext() : base(){}
     public GroceryDbContext(DbContextOptions options): base(options){}
 
-    public DbSet<Grocery> Groceries{get;set;}
+    public DbSet<Item> Groceries{get;set;}
 }

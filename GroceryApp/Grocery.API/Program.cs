@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Grocery.Data;
 using Grocery.Models;
+using Services;
 using Azure.Core.Pipeline;
 
 
@@ -11,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 Console.WriteLine(builder.Configuration["dbconn"]);
 builder.Services.AddDbContext<GroceryDbContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("dbconn")));
 builder.Services.AddControllers();
-
+builder.Services.AddScoped<IGroceryService, GroceryService>();
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddScoped<IRepository, GroceryRepository>();

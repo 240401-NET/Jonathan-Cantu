@@ -14,7 +14,7 @@ builder.Services.AddControllers();
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddScoped<GroceryRepository>();
+builder.Services.AddScoped<IRepository, GroceryRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -49,12 +49,12 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
- app.MapGet("/Groceries",(GroceryRepository repo) =>{
+ app.MapGet("/Groceries",(IRepository repo) =>{
      return repo.GetAllGroceries();})
      .WithName("Get All Groceries")
      .WithOpenApi();
      
-app.MapPost("/AddGroceryItem", (GroceryRepository repo, Item itemToCreate) =>{
+app.MapPost("/AddGroceryItem", (IRepository repo, Item itemToCreate) =>{
 return repo.CreateNewItem(itemToCreate);})
 .WithName("Add A Item To Groceries")
 .WithOpenApi();

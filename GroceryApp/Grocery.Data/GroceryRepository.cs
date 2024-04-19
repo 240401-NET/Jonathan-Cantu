@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 namespace Grocery.Data;
 
-public class GroceryRepository
+public class GroceryRepository : IRepository
 {
     private readonly GroceryDbContext _context;
     public GroceryRepository(GroceryDbContext context){
